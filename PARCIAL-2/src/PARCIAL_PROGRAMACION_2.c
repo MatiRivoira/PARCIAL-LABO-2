@@ -153,7 +153,7 @@ int main(void) {
 								}
 								break;
 						}
-					}while(optionAux != 3);
+					}while(optionAux != 4);
 				}
 				break;
 			case 4:

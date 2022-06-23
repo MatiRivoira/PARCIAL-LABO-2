@@ -119,6 +119,7 @@ LinkedList* controller_MostrarServicios(LinkedList* this){
 			llenarInt(&sentido, "Ingrese 1- PARA CRECIENTE, 0- DECRECIENTE", "ERROR, opcion no valida, vuelva a intentarlo ب(ﾉ◕╭╮◕),)", 1, 0);
 			if(ll_sort(listAux, sortByDescription, sentido) == 0){
 				controller_ListService(listAux);
+				return listAux;
 			}
 		}
 	}
